@@ -12,6 +12,12 @@
 }
 
 body{
+    position: absolute;
+    margin: 0px;
+    overflow: hidden;
+    top: 0px;
+    bottom: 0px;
+    width: 100%;
     font-family: "Almarai";
     background-image:  url(../media/background.jpg);
     background-size:100vw 100vh;
@@ -50,7 +56,7 @@ header{
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: #7c4c09f2;
+    background-color: rgb(36, 36, 36);
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
   }
@@ -79,7 +85,7 @@ header{
 
 .linkh:hover{
     transform: scale(1.2);
-    color: rgb(230, 110, 0);
+    color: rgb(189, 91, 0);
 }
 
 .linkh:active{
@@ -92,7 +98,7 @@ header{
 
 main{
 
-   height: 75vh;
+   height: 80vh;
 }
 
 
