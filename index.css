@@ -31,9 +31,10 @@ body{
 }
 
 header{
-    position: fixed;
+    position: sticky;
     height: 15%;
     width: 100%;
+    top: 0px;
     border-bottom: solid 2px rgb(41, 41, 41);
     background-color: hsla(31, 100%, 88%, 0.100);
     display:flex;
@@ -98,10 +99,38 @@ header{
 /* le "main", ce qui va être au milieu de la page */
 
 main{
-   height: 85%;
+   height: 70%;
+   display: flex;
+   align-items:center;
+}
+#titrecontact{
+    text-align: center;
+    font-weight: bolder;
 }
 
+#contentcontact{
+    margin-left: 100px;
+}
 
+#boxmail{
+
+    background-color: rgb(255, 255, 255,0.5);
+}
+
+#textarea{  
+    background-color: rgb(255, 255, 255,0.5);
+    width: 70vh;
+}
+#textebouton{
+    background-color: rgba(255, 255, 255, 0.555);
+    font-weight: bold;
+    padding: 0% 2% 0% 2%;
+}
+
+#textebouton:hover{
+    transform: scale(1.1);
+    background: orange;
+}
 /* le footer */
 
 footer{
