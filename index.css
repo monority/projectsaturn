@@ -144,11 +144,14 @@ footer{
 /* icone des reseaux et animations */
 
 #iconreseau01{
-    display:flex;
+    margin-top: 10VH;
+    display: flex;
+    padding-right: 5%;
+    justify-content: flex-end;
 }
 
 .iconreseauanim{
-    padding-left: 30px;
+    padding: 0vw 3vw 0vw 3vw;
     scale: 1.5;
     display: flex;
     transition: margin 0.3s ease-in-out;
@@ -156,6 +159,92 @@ footer{
 .iconreseauanim:hover{
     margin-top: -6px;
 }
+
+
+/* /////////////////////////////////////////////////////////////// */
+
+
+#menuu {
+    padding-left: 20px;
+    width: 15%;
+    display: flex;
+    flex-direction: column;}                
+        
+#burger   {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;}
+    
+
+#burger i {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;}
+
+#burger i:hover {
+    margin-top: 10%;
+    scale: 1.2;
+    align-items: center;
+    padding-left: 5px;
+    transition: 1 ease;}
+
+
+.deroulant {
+    min-height: 185px;
+    visibility: hidden;
+    left: 0;
+    max-width:  200px;
+    border: solid black;
+    border-radius: 20px;
+    background-color:hsla(31, 64%, 94%, 0.25);
+    width: 30%;
+    height: 33vh;
+    top: 35px;
+    position: absolute;
+    transition:linear 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;}
+
+
+.deroulant-visible  {
+
+    min-height: 185px;
+    visibility: visible;
+    left: 0;
+    max-width:  200px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: solid black;
+    border-radius: 20px;
+    background-color:hsla(31, 64%, 94%, 0.25);
+    width: 30%;
+    height: 33vh;
+    top: 15vh;
+    position: absolute;
+    align-items: center;}
+
+.deroulant-visible p, .deroulant-visible a, .deroulant p, .deroulant a {
+    padding: 2% 0% 2% 0%;
+    font-size: 15px;
+    font-family: "Almarai";
+    margin: 2% 0% 2% 0%;
+    }
+
+.deroulant hr, .deroulant-visible hr {
+    border-radius: 10px;
+    border:solid rgba(0, 0, 0, 0.5);
+    width: 80%;
+    margin: 0;
+}
+
+.deroulant-visible a:hover, .deroulant a:hover {
+    color: rgba(227, 154, 70, 0.644);
+    scale: 1.2;}
 
 
 
