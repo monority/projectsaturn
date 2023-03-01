@@ -8,7 +8,7 @@
 
 a {
     text-decoration: none !important;
-    color:black !important;
+    color: rgb(45, 45, 45);
 
 
 }
@@ -43,7 +43,6 @@ header{
 
 /* le titre du site */
 #titresite{
-    color: black;
     padding-left: 2%;
     font-size: 30px;
     text-shadow: 2px 1px 3px rgb(40, 40, 40,0.5);
@@ -73,7 +72,7 @@ header{
     justify-content: flex-end;
     padding-right: 3%;
     display:flex;
-    font-size: 0.8em;
+    font-size: 2.5vh;
     
 }
 /* les liens du menu et les animations*/
@@ -87,7 +86,6 @@ header{
 .linkh:hover{
     transform: scale(1.2);
     color: rgb(230, 110, 0);
-    color: rgb(189, 91, 0);
 }
 
 .linkh:active{
@@ -101,23 +99,27 @@ main{
 
 
 /* le footer */
+
 footer{
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-around;
     height: 15%;
     background-color: hsla(31, 100%, 88%, 0.250);
     border-top: solid 2px rgb(41, 41, 41);
 }
 
 #signaturesite{
-    padding-left: 4vh;
+
     text-shadow: 2px 1px 3px rgb(40, 40, 40,0.5);
 }
+
+/* les liens centrés et les anims */
 
 #lienfooter{
     justify-content: center;
     display: flex;
+    padding-left: 30px;
     width: 50%;
     font-size: 3vh;
     text-shadow: 2px 1px 3px rgb(40, 40, 40,0.5);
@@ -125,7 +127,7 @@ footer{
 
 .lienfooteranim{
     display: flex;
-    padding-left: 2vh;
+    padding-left: 12px;
     transition: margin 0.3s ease-in-out;
 }
 
@@ -138,16 +140,17 @@ footer{
     color: rgb(170, 80, 0);
 }
 
+
+/* icone des reseaux et animations */
+
 #iconreseau01{
-    margin-right: 3%;
-    margin-top: 40px;
     display:flex;
 }
 
 .iconreseauanim{
-
+    padding-left: 30px;
+    scale: 1.5;
     display: flex;
-    padding-right: 1vh;
     transition: margin 0.3s ease-in-out;
 }
 .iconreseauanim:hover{
