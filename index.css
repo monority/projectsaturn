@@ -17,12 +17,9 @@ a {
     src:url(../média/Almarai-Regular.ttf);
 }
 
-
-
 body{
     position: absolute;
     margin: 0px;
-    overflow: hidden;
     top: 0px;
     bottom: 0px;
     width: 100%;
@@ -30,21 +27,24 @@ body{
     background-image:  url(média/background.jpg) ;
     background-size:100vw 100vh;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
+
 header{
+    position: fixed;
     height: 15%;
+    width: 100%;
     border-bottom: solid 2px rgb(41, 41, 41);
+    background-color: hsla(31, 100%, 88%, 0.100);
     display:flex;
     justify-content: space-between;
     align-items: center;
 }
 
-
-
 /* le titre du site */
 #titresite{
-    padding-left: 2%;
-    font-size: 30px;
+    padding: 0% 0% 0% 12%;
+    font-size: 60px;
     text-shadow: 2px 1px 3px rgb(40, 40, 40,0.5);
 }
   
@@ -67,19 +67,23 @@ header{
     transform-origin: bottom left;
   }
 /* le conteneur des liens du menu */
+
 #menulink{
     margin-top: 40px;
     justify-content: flex-end;
     padding-right: 3%;
     display:flex;
-    font-size: 2.5vh;
+    font-weight: 500;
+    font-size: 3.5vh;
     
 }
+
 /* les liens du menu et les animations*/
+
 .linkh{
     display: flex;
-    padding: 0% 3% 0% 3%;
-    transition: all .2s ease-in-out; 
+    padding: 0% 7% 0% 7%;
+    transition: all .4s ease-in-out; 
     text-shadow: 2px 1px 3px rgb(40, 40, 40,0.5);
 }
 
@@ -94,7 +98,7 @@ header{
 /* le "main", ce qui va être au milieu de la page */
 
 main{
-   height: 70vh;
+   height: 85%;
 }
 
 
@@ -110,7 +114,8 @@ footer{
 }
 
 #signaturesite{
-
+    width: 25%;
+    padding: 0% 0% 0% 5%;
     text-shadow: 2px 1px 3px rgb(40, 40, 40,0.5);
 }
 
@@ -121,7 +126,7 @@ footer{
     display: flex;
     padding-left: 30px;
     width: 50%;
-    font-size: 3vh;
+    font-size: 3.5vh;
     text-shadow: 2px 1px 3px rgb(40, 40, 40,0.5);
 }
 
@@ -144,16 +149,16 @@ footer{
 /* icone des reseaux et animations */
 
 #iconreseau01{
-    margin-top: 10VH;
+    width: 25%;
     display: flex;
-    padding-right: 5%;
+    margin-right: 5%;
     justify-content: flex-end;
 }
 
 .iconreseauanim{
-    padding: 0vw 3vw 0vw 3vw;
-    scale: 1.5;
-    display: flex;
+    margin: 0vw 0vw 0vw 3vw;
+    font-size: 30px;
+    display: fl ex;
     transition: margin 0.3s ease-in-out;
 }
 .iconreseauanim:hover{
