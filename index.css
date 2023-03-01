@@ -1,0 +1,163 @@
+*{  font-family: "Almarai";
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    color: rgb(45, 45, 45);
+}
+
+
+a {
+    text-decoration: none !important;
+    color:black !important;
+
+
+}
+@font-face {
+    font-family: "Almarai";
+    src:url(../média/Almarai-Regular.ttf);
+}
+
+
+
+body{
+    position: absolute;
+    margin: 0px;
+    overflow: hidden;
+    top: 0px;
+    bottom: 0px;
+    width: 100%;
+    font-family: "Almarai";
+    background-image:  url(média/background.jpg) ;
+    background-size:100vw 100vh;
+    background-repeat: no-repeat;
+}
+header{
+    height: 15%;
+    border-bottom: solid 2px rgb(41, 41, 41);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+/* le titre du site */
+#titresite{
+    color: black;
+    padding-left: 2%;
+    font-size: 30px;
+    text-shadow: 2px 1px 3px rgb(40, 40, 40,0.5);
+}
+  
+#titresite::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #7c4c09f2;
+    background-color: rgb(36, 36, 36);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+#titresite:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+/* le conteneur des liens du menu */
+#menulink{
+    margin-top: 40px;
+    justify-content: flex-end;
+    padding-right: 3%;
+    display:flex;
+    font-size: 0.8em;
+    
+}
+/* les liens du menu et les animations*/
+.linkh{
+    display: flex;
+    padding: 0% 3% 0% 3%;
+    transition: all .2s ease-in-out; 
+    text-shadow: 2px 1px 3px rgb(40, 40, 40,0.5);
+}
+
+.linkh:hover{
+    transform: scale(1.2);
+    color: rgb(230, 110, 0);
+    color: rgb(189, 91, 0);
+}
+
+.linkh:active{
+    color: rgb(170, 80, 0);
+}
+/* le "main", ce qui va être au milieu de la page */
+
+main{
+   height: 70vh;
+}
+
+
+/* le footer */
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15%;
+    background-color: hsla(31, 100%, 88%, 0.250);
+    border-top: solid 2px rgb(41, 41, 41);
+}
+
+#signaturesite{
+    padding-left: 4vh;
+    text-shadow: 2px 1px 3px rgb(40, 40, 40,0.5);
+}
+
+#lienfooter{
+    justify-content: center;
+    display: flex;
+    width: 50%;
+    font-size: 3vh;
+    text-shadow: 2px 1px 3px rgb(40, 40, 40,0.5);
+}
+
+.lienfooteranim{
+    display: flex;
+    padding-left: 2vh;
+    transition: margin 0.3s ease-in-out;
+}
+
+.lienfooteranim:hover{
+    margin-top: -6px;
+    color: rgb(225, 109, 2);
+}
+
+.lienfooteranim:active{
+    color: rgb(170, 80, 0);
+}
+
+#iconreseau01{
+    margin-right: 3%;
+    margin-top: 40px;
+    display:flex;
+}
+
+.iconreseauanim{
+
+    display: flex;
+    padding-right: 1vh;
+    transition: margin 0.3s ease-in-out;
+}
+.iconreseauanim:hover{
+    margin-top: -6px;
+}
+
+
+
+
+
+
+
+
