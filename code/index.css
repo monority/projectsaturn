@@ -12,19 +12,16 @@
 }
 
 body{
-    position: absolute;
-    margin: 0px;
     overflow: hidden;
-    top: 0px;
-    bottom: 0px;
     width: 100%;
     font-family: "Almarai";
     background-image:  url(../media/background.jpg);
     background-size:100vw 100vh;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 header{
-    height: 12vh;
+    height: 80px;
     border-bottom: solid 2px rgb(41, 41, 41);
 }
 
