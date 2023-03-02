@@ -102,6 +102,14 @@ header{
     color: rgb(170, 80, 0);
 }
 
+/* content */
+
+#boxmainindex{
+
+    height: 85%;
+    top: 15vh;
+}   
+
 /* le footer */
 
 footer{
