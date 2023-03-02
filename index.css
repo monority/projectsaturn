@@ -31,7 +31,7 @@ body{
 }
 
 header{
-    position: sticky;
+    position: fixed;
     height: 15%;
     width: 100%;
     top: 0px;
@@ -44,7 +44,8 @@ header{
 
 /* le titre du site */
 #titresite{
-    padding: 0% 0% 0% 12%;
+    position: relative;
+    margin: 0% 0% 0% 12%;
     font-size: 60px;
     text-shadow: 2px 1px 3px rgb(40, 40, 40,0.5);
 }
@@ -99,9 +100,15 @@ header{
 /* le "main", ce qui va être au milieu de la page */
 
 main{
-   height: 70%;
+   height: 85%;
    display: flex;
    align-items:center;
+}
+#layerseperate{
+    margin-top: 20px;
+    margin-left: 100px;
+    opacity: 0.5;
+    scale: 0.8;
 }
 #titrecontact{
     text-align: center;
