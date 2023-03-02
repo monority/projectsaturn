@@ -48,6 +48,7 @@ header{
 }
 
 /* le titre du site */
+
 #titresite{
     position: relative;
     margin: 0% 0% 0% 12%;
@@ -73,6 +74,7 @@ header{
     transform: scaleX(1);
     transform-origin: bottom left;
   }
+
 /* le conteneur des liens du menu */
 
 #menulink{
@@ -82,7 +84,6 @@ header{
     display:flex;
     font-weight: 500;
     font-size: 3.5vh;
-    
 }
 
 /* les liens du menu et les animations*/
@@ -103,25 +104,7 @@ header{
     color: rgb(170, 80, 0);
 }
 
-<<<<<<< HEAD
-main{
-   height: 85%;
-   display: flex;
-   align-items:center;
-}
-#layerseperate{
-    margin-top: 20px;
-    margin-left: 100px;
-    opacity: 0.5;
-    scale: 0.8;
-}
-#titrecontact{
-    text-align: center;
-    font-weight: bolder;
-}
-=======
 /* content */
->>>>>>> 1c46723d06fcf7aa8e86cbea34cdde73e43bf907
 
 #boxmainindex{
 
