@@ -101,42 +101,7 @@ header{
 .linkh:active{
     color: rgb(170, 80, 0);
 }
-/* le "main", ce qui va être au milieu de la page */
 
-main{
-   height: 85%;
-   display: flex;
-   align-items:center;
-}
-#titrecontact{
-    text-align: center;
-    font-weight: bolder;
-}
-
-#contentcontact{
-    margin-left: 100px;
-    margin-top: 40px;
-}
-
-#boxmail{
-
-    background-color: rgb(255, 255, 255,0.5);
-}
-
-#textarea{  
-    background-color: rgb(255, 255, 255,0.5);
-    width: 70vh;
-}
-#textebouton{
-    background-color: rgba(255, 255, 255, 0.555);
-    font-weight: bold;
-    padding: 0% 2% 0% 2%;
-}
-
-#textebouton:hover{
-    transform: scale(1.1);
-    background: rgb(195, 195, 195);
-}
 /* le footer */
 
 footer{
@@ -193,7 +158,7 @@ footer{
 .iconreseauanim{
     margin: 0vw 0vw 0vw 3vw;
     font-size: 30px;
-    display: fl ex;
+    display: flex;
     transition: margin 0.3s ease-in-out;
 }
 .iconreseauanim:hover{
