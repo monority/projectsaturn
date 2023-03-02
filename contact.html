@@ -1,104 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="contact.css">
     <script src="https://kit.fontawesome.com/37a989237f.js" crossorigin="anonymous"></script>
-    <title>Saturn records</title>
+  
+    <title>Contact</title>
+
 </head>
 
 <body>
 
     <header>
 
-        <div id="header01">
+        <!-- titre du site -->
 
+        <div class = "titremenu">
+            
             <h1 id="titresite"><a href="index.html">Saturn™</a></h1>
+            
+        <!-- menu burger  -->
 
-                <ul id="menulink">
-
-                    <li><a href="vinyles.html" class="linkh">Vinyles</a></li>
-                    <li><a href="inscription.html" class="linkh">Inscription</a></li>
-                    <li><a href="connexion.html" class="linkh">Connexion</a></li>
-                    <li><a href="" class="linkh"><i class="fa-solid  fa-shopping-basket textemenu"></i></a></li>
-
-                </ul>
+            <div id="menuu">
+                
+                <div id="burger"><i id="cross"  class="fa-solid fa-bars"></i>
+                    
+                    <div class="deroulant">
+                        <p>Categories</p>
+                        <hr>
+                        <a href="">Electro</a>
+                        <a href="">Rap</a>
+                        <a href="">Reggae</a>
+      x                  <a href="">Pop-Rock</a>
+                    </div>
+                </div>
+            </div>
         </div>
 
-    </header>
+        <!-- liens cliquables header -->
 
-<main>
-
+        <div id="menulink">
+            <a href="vinyles.html" class="linkh">Vinyles</a>
+            <a href="inscription.html" class="linkh">Inscription</a>
+            <a href="connexion.html" class="linkh">Connexion</a>
+                <a href="" class="linkB"><i class="fa-solid  fa-shopping-cart linkh"></i></a>
+        </div>   
     
+    </header>   
+
+    <!-- contenu page -->
+
+<section id="boxmaincontact">
     
-    <div class="contentcontact">
+    <div id="contentcontact">
 
-        <section id="boxcontact">
+    <!-- titre de la page -->
 
-            <h2 id="titrecontact">Contact</h2><br><br><br>
-               
-            <p style="display: inline;font-weight: bold;font-size: 18px;">Adresse mail : </p> 
+        <h3 id="titrecontact">Contact</h3> <br>
 
-            <label for=""><input type="email" id="boxemailcontact" placeholder="Entrer votre adresse mail">
-        
-            </label>
-            
-            <br><br><br>
+    <!-- box adresse mail et input de l'adresse -->
 
-            <textarea name="textbox" placeholder="Taper votre texte ici" id="textareacontact" cols="66" rows="15"></textarea>
-            
-            <br><br>
+        <p style="display: inline; font-size: 18px; font-weight: bold;" >Adresse email :</p> <label for=""><input type="mail" id="boxmail" placeholder="Votre adresse mail">
+        </label>
 
-            <input type="submit" id="boutoncontactvalider"; value="Valider" ">
+        <br>
+        <br>
 
-        </section>
+    <!-- la box ou écrire le texte -->
 
-        <section id="boxinformationcontact">
+        <label for="">
+        <textarea name="textbox" placeholder="Taper votre texte ici" id="textarea" rows="10"></textarea>
+        </label>
 
+        <br>
+        <br>
 
-            
-        </section>
+    <!-- le bouton valider -->
 
+        <div class="boutonvalider" style="margin-left: 30px;">
+            <button type="button" id="textebouton" data-bs-toggle="modal" data-bs-target="#myModal">Valider</button>
+            <div class="modal" id="myModal">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Merci à vous ! <br> Nous vous contacterons dans les plus bref délais !</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    
 
-</main>
+  
+   
+    <h2>Nos informations</h2>
+
+</section>
+
+    <!-- footer -->
 
     <footer>
 
-        <div id="signaturesite">
+    <!-- signature du site -->
 
-            <p> Saturn™ - 2023</p>
-    
-        </div>
-    
+        <div id="signaturesite">Saturn™ - 2023</div>
+
+    <!-- lien du footer au milieu -->
+
         <div id="lienfooter">
-            
-            <ul>
-    
-            <li><a href="index.html" class="lienfooteranim">Home</a></li>
-            <li><a href="about.html" class="lienfooteranim">About</a></li>
-            <li><a href="contact.html" class="lienfooteranim">Contact</a></li>
-    
-            </ul>
-    
+                <a href="index.html" class="lienfooteranim">Home</a>
+                <a href="about.html" class="lienfooteranim">About</a>
+                <a href="contact.html" class="lienfooteranim">Contact</a>
         </div>
     
-        <div id="iconreseau01">
-    
-            <ul>
-                
-            <li><a href="https://www.twitter.com/" target="/blank" class="iconreseauanim"><i class="fa-brands fa-twitter" ></i></a></li>
-            <li><a href="https://www.facebook.com/" target="/blank" class="iconreseauanim"><i class="fa-brands fa-facebook"></i></a> </li>
-            <li><a href="https://www.instagram.com/" target="/blank" class="iconreseauanim"><i class="fa-brands fa-square-instagram"></i></a></li>
-        
-            </ul>
-    
+    <!-- icones des reseaux cliquables -->
+
+        <div id="iconreseau01">  
+                <a href="https://www.twitter.com/" target="/blank" class="iconreseauanim"><i class="fa-brands fa-twitter" ></i></a>
+                <a href="https://www.facebook.com/" target="/blank" class="iconreseauanim"><i class="fa-brands fa-facebook"></i></a> 
+                <a href="https://www.instagram.com/" target="/blank" class="iconreseauanim"><i class="fa-brands fa-square-instagram"></i></a>
         </div>
-    
+
     </footer>
-    
+
+    <!-- script js -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="scripte/scripte.js"></script>
 </body>
 </html>
+
+
+
+
+

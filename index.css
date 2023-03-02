@@ -33,11 +33,17 @@ body{
 header{
     height: 15%;
     width: 100%;
+    top: 0px;
+    left: 0px;
     border-bottom: solid 2px rgb(41, 41, 41);
     background-color: hsla(31, 100%, 88%, 0.100);
     display:flex;
     justify-content: space-between;
     align-items: center;
+    background-image:  url(média/background.jpg) ;
+    background-size:100vw 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 /* le titre du site */
@@ -94,14 +100,14 @@ header{
 .linkh:active{
     color: rgb(170, 80, 0);
 }
-/* le "main", ce qui va être au milieu de la page */
 
-main{
-   height: 70VH;
-   display: flex;
-   flex-direction: column-reverse;
-}
+/* content */
 
+#boxmainindex{
+
+    height: 85%;
+    top: 15vh;
+}   
 
 /* le footer */
 
@@ -255,6 +261,7 @@ footer{
     scale: 1.2;}
 
 
+
 /* content ////////////////////////////////////////////// */
 
 
@@ -300,217 +307,6 @@ footer{
 
 
 
-.hidden {
-    visibility:hidden;
-}
-
-.visible  {
-    visibility:visible !important;
-}
 
 
-
-.translate {
-    left:-75%;
-    position: relative !important;}
-
-
-.info { right: 3%;
-    background-color: hsl(33, 100%, 88%, 0.3);
-    min-width:150px ;
-    max-height: 300px;
-    overflow-y: scroll;
-    width: 40%; 
-    height: 80%;
-    border-radius: 25px;
-    border:solid black ;  
-    z-index: 5;
-    visibility: hidden;
-    position: absolute;
-    padding: 5% ;
-    text-align: center;
-            }
-
-
-.secondimg {
-    min-height: 180px;
-    min-width:180px ;
-    max-width: 180px;
-    cursor: pointer;
-    background: url(../média/vinyle.jpg)  no-repeat 50% 50% ;
-    background-size: 100% 100% ;
-    width: 100%; 
-    height: 100%;
-    border-radius: 25px;
-    border:solid black ;  
-    z-index: 5;
-    margin: 10%;}
-
-.thirdimg {
-    min-height: 180px;
-    min-width:180px ;
-    max-width: 180px;
-    cursor: pointer;
-    background: url(../média/vinyle2.jpeg) no-repeat 50% 50% ;
-    background-size: 230px 260px ;
-    width: 100%; 
-    height: 100%;
-    border-radius: 25px;
-    border:solid black ;  
-    z-index: 5;
-    margin: 10%;}
-
-.fourimg {
-    min-height: 180px;
-    min-width:180px ;
-    max-width: 180px;
-    cursor: pointer;
-    background: url(../média/vinyle3.jpg) no-repeat 50% 50% ;
-    background-size: 230px 260px ;
-    width: 100%; 
-    height: 100%;
-    border-radius: 25px;
-    border:solid black ;  
-    z-index: 5;
-    margin: 10%;}
-
-.fiveimg {
-    min-height: 180px;
-    min-width:180px ;
-    max-width: 180px;
-    cursor: pointer;
-    background: url(../média/vinyle4.jpg)  no-repeat 50% 50% ;
-    background-size: 230px 260px ;
-    width: 100%; 
-    height: 100%;
-    border-radius: 25px;
-    border:solid black ;  
-    z-index: 5;
-    margin: 10%;}
-
-.siximg {
-    min-height: 180px;
-    min-width:180px ;
-    max-width: 180px;
-    cursor: pointer;
-    background: url(../média/vinyle5.jpeg) no-repeat 50% 50% ;
-    background-size: 230px 260px ;
-    width: 100%; 
-    height: 100%;
-    border-radius: 25px;
-    border:solid black ;  
-    z-index: 5;
-    margin: 10%;}
-
-.sevenimg {
-    min-height: 180px;
-    min-width:180px ;
-    max-width: 180px;
-    cursor: pointer;
-    background: url(../média/vinyle6.jpg)  no-repeat 50% 50% ;
-    background-size: 230px 260px ;
-    width: 100%; 
-    height: 100%;
-    border-radius: 25px;
-    border:solid black ;  
-    z-index: 5;
-    margin: 10%;}
     
-.eightimg {
-    min-height: 180px;
-    min-width:180px ;
-    max-width: 180px;
-    cursor: pointer;
-    background: url(../média/vinyle7.png)  no-repeat 50% 50% ;
-    background-size: 230px 260px ;
-    width: 100%; 
-    height: 100%;
-    border-radius: 25px;
-    border:solid black ;  
-    z-index: 5;
-    margin: 10%;}  
-
-.nineimg {
-    min-height: 180px;
-    min-width:180px ;
-    max-width: 180px;
-    cursor: pointer;
-    background: url(../média/vinyle8.webp)  no-repeat 50% 50% ;
-    background-size: 230px 260px ;
-    width: 100%; 
-    height: 100%;
-    border-radius: 25px;
-    border:solid black ;  
-    z-index: 5;
-    margin: 10%;}  
-
-
-.secondimg:hover {
-    background-size: 150%;
-    scale: 1.1;
-    border: none;
-    border-radius: solid black ;
-    transition: 0.7s ease ;} 
-
-.thirdimg:hover {
-    background-size: 150%;
-    scale: 1.1;
-    border: none;
-    border-radius: solid black ;
-    transition: 0.7s ease ;} 
-
-.fourimg:hover {
-    background-size: 150%;
-    scale: 1.1;
-    border: none;
-    border-radius: solid black ;
-    transition: 0.7s ease ;} 
-
-.fiveimg:hover {
-    background-size: 150%;
-    scale: 1.1;
-    border: none;
-    border-radius: solid black ;
-    transition: 0.7s ease ;}
-
-.siximg:hover {
-    background-size: 150%;
-    scale: 1.1;
-    border: none;
-    border-radius: solid black ;
-    transition: 0.7s ease ;}
-
-.sevenimg:hover {
-    background-size: 150%;
-    scale: 1.1;
-    border: none;
-    border-radius: solid black ;
-    transition: 0.7s ease ;}
-
-.eightimg:hover {
-    background-size: 150%;
-    scale: 1.1;
-    border: none;
-    border-radius: solid black ;
-    transition: 0.7s ease ;}
-
-.nineimg:hover {
-    background-size: 150%;
-    scale: 1.1;
-    border: none;
-    border-radius: solid black ;
-    transition: 0.7s ease ;}
-
-#left , #rigth {
-    cursor: pointer;
-    font-size: 3rem;
-    font-weight: bolder;
-    opacity: 0.6;}
-
-
-
-
-
-
-
-
