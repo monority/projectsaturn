@@ -31,15 +31,20 @@ body{
 }
 
 header{
-    position: sticky;
+    position: fixed;
     height: 15%;
     width: 100%;
     top: 0px;
+    left: 0px;
     border-bottom: solid 2px rgb(41, 41, 41);
     background-color: hsla(31, 100%, 88%, 0.100);
     display:flex;
     justify-content: space-between;
     align-items: center;
+    background-image:  url(média/background.jpg) ;
+    background-size:100vw 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 /* le titre du site */
@@ -99,7 +104,7 @@ header{
 /* le "main", ce qui va être au milieu de la page */
 
 main{
-   height: 70%;
+   height: 85%;
    display: flex;
    align-items:center;
 }
@@ -110,6 +115,7 @@ main{
 
 #contentcontact{
     margin-left: 100px;
+    margin-top: 40px;
 }
 
 #boxmail{
@@ -129,7 +135,7 @@ main{
 
 #textebouton:hover{
     transform: scale(1.1);
-    background: orange;
+    background: rgb(195, 195, 195);
 }
 /* le footer */
 
@@ -287,3 +293,5 @@ footer{
 
 
 
+
+    
