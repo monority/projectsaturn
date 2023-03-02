@@ -31,7 +31,6 @@ body{
 }
 
 header{
-    position: fixed;
     height: 15%;
     width: 100%;
     border-bottom: solid 2px rgb(41, 41, 41);
@@ -98,7 +97,9 @@ header{
 /* le "main", ce qui va être au milieu de la page */
 
 main{
-   height: 85%;
+   height: 70VH;
+   display: flex;
+   flex-direction: column-reverse;
 }
 
 
@@ -158,7 +159,7 @@ footer{
 .iconreseauanim{
     margin: 0vw 0vw 0vw 3vw;
     font-size: 30px;
-    display: fl ex;
+    display: flex;
     transition: margin 0.3s ease-in-out;
 }
 .iconreseauanim:hover{
@@ -173,14 +174,16 @@ footer{
     padding-left: 20px;
     width: 15%;
     display: flex;
-    flex-direction: column;}                
-        
-#burger   {
+    flex-direction: column;}  
+    
+#burger {
+    margin-bottom: 5px;
     width: 100%;
     height: 100%;
     display: flex;
-    flex-direction: column;}
-    
+    flex-direction: column;
+}
+        
 
 #burger i {
     height: 100%;
@@ -250,6 +253,259 @@ footer{
 .deroulant-visible a:hover, .deroulant a:hover {
     color: rgba(227, 154, 70, 0.644);
     scale: 1.2;}
+
+
+/* content ////////////////////////////////////////////// */
+
+
+.sect {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    height: 70vh;
+    width: 100%;
+}
+
+.bi {
+    color: red;
+    width: 100%;
+}
+
+#player {
+    width: 60%;
+    height: 25vh;
+    display: flex;
+    position: absolute;
+    margin-left: 20%;
+    justify-content: center;
+    align-items: center;}
+
+
+.playsound {
+    width: 30%;
+    height: 10vh;
+    margin: 5% 35% 5% 35%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#volume { width: 100%;
+          color: black;}
+
+.playsound i {
+    color:rgba(0, 0, 0, 0.6) ;
+    }
+
+
+
+
+.hidden {
+    visibility:hidden;
+}
+
+.visible  {
+    visibility:visible !important;
+}
+
+
+
+.translate {
+    left:-75%;
+    position: relative !important;}
+
+
+.info { right: 3%;
+    background-color: hsl(33, 100%, 88%, 0.3);
+    min-width:150px ;
+    max-height: 300px;
+    overflow-y: scroll;
+    width: 40%; 
+    height: 80%;
+    border-radius: 25px;
+    border:solid black ;  
+    z-index: 5;
+    visibility: hidden;
+    position: absolute;
+    padding: 5% ;
+    text-align: center;
+            }
+
+
+.secondimg {
+    min-height: 180px;
+    min-width:180px ;
+    max-width: 180px;
+    cursor: pointer;
+    background: url(../média/vinyle.jpg)  no-repeat 50% 50% ;
+    background-size: 100% 100% ;
+    width: 100%; 
+    height: 100%;
+    border-radius: 25px;
+    border:solid black ;  
+    z-index: 5;
+    margin: 10%;}
+
+.thirdimg {
+    min-height: 180px;
+    min-width:180px ;
+    max-width: 180px;
+    cursor: pointer;
+    background: url(../média/vinyle2.jpeg) no-repeat 50% 50% ;
+    background-size: 230px 260px ;
+    width: 100%; 
+    height: 100%;
+    border-radius: 25px;
+    border:solid black ;  
+    z-index: 5;
+    margin: 10%;}
+
+.fourimg {
+    min-height: 180px;
+    min-width:180px ;
+    max-width: 180px;
+    cursor: pointer;
+    background: url(../média/vinyle3.jpg) no-repeat 50% 50% ;
+    background-size: 230px 260px ;
+    width: 100%; 
+    height: 100%;
+    border-radius: 25px;
+    border:solid black ;  
+    z-index: 5;
+    margin: 10%;}
+
+.fiveimg {
+    min-height: 180px;
+    min-width:180px ;
+    max-width: 180px;
+    cursor: pointer;
+    background: url(../média/vinyle4.jpg)  no-repeat 50% 50% ;
+    background-size: 230px 260px ;
+    width: 100%; 
+    height: 100%;
+    border-radius: 25px;
+    border:solid black ;  
+    z-index: 5;
+    margin: 10%;}
+
+.siximg {
+    min-height: 180px;
+    min-width:180px ;
+    max-width: 180px;
+    cursor: pointer;
+    background: url(../média/vinyle5.jpeg) no-repeat 50% 50% ;
+    background-size: 230px 260px ;
+    width: 100%; 
+    height: 100%;
+    border-radius: 25px;
+    border:solid black ;  
+    z-index: 5;
+    margin: 10%;}
+
+.sevenimg {
+    min-height: 180px;
+    min-width:180px ;
+    max-width: 180px;
+    cursor: pointer;
+    background: url(../média/vinyle6.jpg)  no-repeat 50% 50% ;
+    background-size: 230px 260px ;
+    width: 100%; 
+    height: 100%;
+    border-radius: 25px;
+    border:solid black ;  
+    z-index: 5;
+    margin: 10%;}
+    
+.eightimg {
+    min-height: 180px;
+    min-width:180px ;
+    max-width: 180px;
+    cursor: pointer;
+    background: url(../média/vinyle7.png)  no-repeat 50% 50% ;
+    background-size: 230px 260px ;
+    width: 100%; 
+    height: 100%;
+    border-radius: 25px;
+    border:solid black ;  
+    z-index: 5;
+    margin: 10%;}  
+
+.nineimg {
+    min-height: 180px;
+    min-width:180px ;
+    max-width: 180px;
+    cursor: pointer;
+    background: url(../média/vinyle8.webp)  no-repeat 50% 50% ;
+    background-size: 230px 260px ;
+    width: 100%; 
+    height: 100%;
+    border-radius: 25px;
+    border:solid black ;  
+    z-index: 5;
+    margin: 10%;}  
+
+
+.secondimg:hover {
+    background-size: 150%;
+    scale: 1.1;
+    border: none;
+    border-radius: solid black ;
+    transition: 0.7s ease ;} 
+
+.thirdimg:hover {
+    background-size: 150%;
+    scale: 1.1;
+    border: none;
+    border-radius: solid black ;
+    transition: 0.7s ease ;} 
+
+.fourimg:hover {
+    background-size: 150%;
+    scale: 1.1;
+    border: none;
+    border-radius: solid black ;
+    transition: 0.7s ease ;} 
+
+.fiveimg:hover {
+    background-size: 150%;
+    scale: 1.1;
+    border: none;
+    border-radius: solid black ;
+    transition: 0.7s ease ;}
+
+.siximg:hover {
+    background-size: 150%;
+    scale: 1.1;
+    border: none;
+    border-radius: solid black ;
+    transition: 0.7s ease ;}
+
+.sevenimg:hover {
+    background-size: 150%;
+    scale: 1.1;
+    border: none;
+    border-radius: solid black ;
+    transition: 0.7s ease ;}
+
+.eightimg:hover {
+    background-size: 150%;
+    scale: 1.1;
+    border: none;
+    border-radius: solid black ;
+    transition: 0.7s ease ;}
+
+.nineimg:hover {
+    background-size: 150%;
+    scale: 1.1;
+    border: none;
+    border-radius: solid black ;
+    transition: 0.7s ease ;}
+
+#left , #rigth {
+    cursor: pointer;
+    font-size: 3rem;
+    font-weight: bolder;
+    opacity: 0.6;}
 
 
 
