@@ -35,11 +35,16 @@ header{
     height: 15%;
     width: 100%;
     top: 0px;
+    left: 0px;
     border-bottom: solid 2px rgb(41, 41, 41);
     background-color: hsla(31, 100%, 88%, 0.100);
     display:flex;
     justify-content: space-between;
     align-items: center;
+    background-image:  url(média/background.jpg) ;
+    background-size:100vw 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 /* le titre du site */
@@ -97,8 +102,8 @@ header{
 .linkh:active{
     color: rgb(170, 80, 0);
 }
-/* le "main", ce qui va être au milieu de la page */
 
+<<<<<<< HEAD
 main{
    height: 85%;
    display: flex;
@@ -114,30 +119,16 @@ main{
     text-align: center;
     font-weight: bolder;
 }
+=======
+/* content */
+>>>>>>> 1c46723d06fcf7aa8e86cbea34cdde73e43bf907
 
-#contentcontact{
-    margin-left: 100px;
-}
+#boxmainindex{
 
-#boxmail{
+    height: 85%;
+    top: 15vh;
+}   
 
-    background-color: rgb(255, 255, 255,0.5);
-}
-
-#textarea{  
-    background-color: rgb(255, 255, 255,0.5);
-    width: 70vh;
-}
-#textebouton{
-    background-color: rgba(255, 255, 255, 0.555);
-    font-weight: bold;
-    padding: 0% 2% 0% 2%;
-}
-
-#textebouton:hover{
-    transform: scale(1.1);
-    background: orange;
-}
 /* le footer */
 
 footer{
@@ -194,7 +185,7 @@ footer{
 .iconreseauanim{
     margin: 0vw 0vw 0vw 3vw;
     font-size: 30px;
-    display: fl ex;
+    display: flex;
     transition: margin 0.3s ease-in-out;
 }
 .iconreseauanim:hover{
@@ -294,3 +285,5 @@ footer{
 
 
 
+
+    
