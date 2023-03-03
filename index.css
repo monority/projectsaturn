@@ -14,7 +14,7 @@ a {
 }
 @font-face {
     font-family: "Almarai";
-    src:url(../média/Almarai-Regular.ttf);
+    src:url(média\Almarai-Regular.ttf);
 }
 
 body{
@@ -31,7 +31,7 @@ body{
 }
 
 header{
-    position: sticky;
+    position: fixed;
     height: 15%;
     width: 100%;
     top: 0px;
@@ -40,6 +40,10 @@ header{
     display:flex;
     justify-content: space-between;
     align-items: center;
+    background-image:  url(média/background.jpg) ;
+    background-size:100vw 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 /* le titre du site */
@@ -90,16 +94,16 @@ header{
 
 .linkh:hover{
     transform: scale(1.2);
-    color: rgb(230, 110, 0);
+    color: rgb(213, 115, 115);
 }
 
 .linkh:active{
-    color: rgb(170, 80, 0);
+    color: rgb(213, 115, 115);
 }
 /* le "main", ce qui va être au milieu de la page */
 
 main{
-   height: 70%;
+   height: 85%;
    display: flex;
    align-items:center;
 }
@@ -114,11 +118,11 @@ main{
 
 #boxmail{
 
-    background-color: rgb(255, 255, 255,0.5);
+    background-color: rgb(255, 255, 255,0.35);
 }
 
 #textarea{  
-    background-color: rgb(255, 255, 255,0.5);
+    background-color: rgba(255, 255, 255, 0.323);
     width: 70vh;
 }
 #textebouton{
@@ -167,11 +171,11 @@ footer{
 
 .lienfooteranim:hover{
     margin-top: -6px;
-    color: rgb(225, 109, 2);
+    color: rgb(213, 115, 115);
 }
 
 .lienfooteranim:active{
-    color: rgb(170, 80, 0);
+    color: rgb(213, 115, 115)l;
 }
 
 
@@ -187,7 +191,7 @@ footer{
 .iconreseauanim{
     margin: 0vw 0vw 0vw 3vw;
     font-size: 30px;
-    display: fl ex;
+    display: flex;
     transition: margin 0.3s ease-in-out;
 }
 .iconreseauanim:hover{
