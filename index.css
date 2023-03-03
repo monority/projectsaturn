@@ -5,6 +5,7 @@
     color: rgb(45, 45, 45);
 }
 
+
 a {
     text-decoration: none !important;
     color: rgb(45, 45, 45);
@@ -13,7 +14,7 @@ a {
 }
 @font-face {
     font-family: "Almarai";
-    src:url(média\Almarai-Regular.ttf);
+    src:url(../média/Almarai-Regular.ttf);
 }
 
 body{
@@ -30,7 +31,6 @@ body{
 }
 
 header{
-    position: fixed;
     height: 15%;
     width: 100%;
     top: 0px;
@@ -96,18 +96,16 @@ header{
 
 .linkh:hover{
     transform: scale(1.2);
-    color: rgb(213, 115, 115);
-        color: rgb(230, 110, 0);
+    color: rgba(205, 80, 80, 0.8);
 }
 
 .linkh:active{
-    color: rgb(213, 115, 115);
+    color: rgb(212, 53, 53);
 }
 
 /* content */
 
 #boxmainindex{
-
     height: 85%;
     top: 15vh;
 }   
@@ -148,11 +146,11 @@ footer{
 
 .lienfooteranim:hover{
     margin-top: -6px;
-    color: rgb(213, 115, 115);
+    color: rgba(205, 80, 80, 0.8);
 }
 
 .lienfooteranim:active{
-    color: rgb(213, 115, 115)l;
+    color: rgb(212, 53, 53);
 }
 
 

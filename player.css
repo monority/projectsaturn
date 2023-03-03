@@ -13,13 +13,7 @@ main {
 
 }
 
-#boxmainindex{
-    display: flex;
-    /* flex-direction: column-reverse; */
-    height: 70% !important;
-    top: 0px;
-    width: 100%;
-}   
+
 
 #player {
     width: 60%;
@@ -68,10 +62,12 @@ main {
     position: relative !important;}
 
 
-.info { right: 3%;
+.info { 
+    line-height: 20px;
+    right: 3%;
     background-color: hsl(33, 100%, 88%, 0.3);
     min-width:150px ;
-    max-height: 300px;
+    max-height: 30%;
     overflow-y: scroll;
     width: 40%; 
     height: 80%;
