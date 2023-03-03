@@ -97,7 +97,7 @@ header{
 
 .linkh:hover{
     transform: scale(1.2);
-    color: rgb(230, 110, 0);
+        color: rgb(230, 110, 0);
 }
 
 .linkh:active{

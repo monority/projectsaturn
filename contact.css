@@ -40,7 +40,14 @@
     display: flex;
 }
 #titreinfos{
-    display: flex;
-    justify-content: center;
+    font-weight: bolder;
+    padding-left: 50px;
+}
 
+#paragrapheinfo{
+    font-size: large;
+}
+
+#layerseperate{
+    scale: 80%;
 }
