@@ -235,7 +235,7 @@ footer{
     justify-content: space-between;
     border: solid black;
     border-radius: 20px;
-    background-color:hsla(31, 64%, 94%, 0.25);
+    background-color:hsla(31, 64%, 94%, 0.85);
     width: 30%;
     height: 33vh;
     top: 15vh;
@@ -262,47 +262,7 @@ footer{
 
 
 
-/* content ////////////////////////////////////////////// */
 
-
-.sect {
-    display: flex;
-    align-items: center;
-    position: absolute;
-    height: 70vh;
-    width: 100%;
-}
-
-.bi {
-    color: red;
-    width: 100%;
-}
-
-#player {
-    width: 60%;
-    height: 25vh;
-    display: flex;
-    position: absolute;
-    margin-left: 20%;
-    justify-content: center;
-    align-items: center;}
-
-
-.playsound {
-    width: 30%;
-    height: 10vh;
-    margin: 5% 35% 5% 35%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-#volume { width: 100%;
-          color: black;}
-
-.playsound i {
-    color:rgba(0, 0, 0, 0.6) ;
-    }
 
 
 

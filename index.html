@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="player.css">
     <link rel="stylesheet" href="contact.css">
     <script src="https://kit.fontawesome.com/37a989237f.js" crossorigin="anonymous"></script>
   
@@ -52,25 +53,32 @@
     </header>   
 
         <!-- contenu page -->
-<section id="boxmainindex">
 
 
-</section>
-        <div class="sect">
-            <div id="player">
-                <div id="left"><i  class="fa-solid fa-backward"></i></div>
-                <div class="secondimg"></div>
-                <div id="rigth"><i  class="fa-solid fa-forward"></i></div>
-            </div>
+    <main>
+        <section class="sect">
+                    <div id="player">
+                        <div id="left"><i  class="fa-solid fa-backward"></i></div>
+                        <div class="secondimg"></div>
+                        <div id="rigth"><i  class="fa-solid fa-forward"></i></div>
+                    </div>
 
-            <div class="info">Description <hr>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Placeat harum pariatur alias doloremque optio! Voluptate doloremque tenetur ipsa? 
-                Soluta dignissimos itaque nesciunt vitae fuga, similique sint. 
-                Minus quis facilis vero.
-            </div>
-        </div>
+                    <div class="info">Description <hr>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Placeat harum pariatur alias doloremque optio! Voluptate doloremque tenetur ipsa? 
+                        Soluta dignissimos itaque nesciunt vitae fuga, similique sint. 
+                        Minus quis facilis vero.
+                    </div>
+        </section>
 
+        <section class="playsound"> 
+                <i class="fa-solid fa-play"></i>
+                <label for="volume">
+                    <input type="range" name="volume" id="volume" max="100%" min="0%">
+                </label>
+                <i class="fa-solid fa-volume-high"></i>
+        </section>
+    </main>
     <!-- footer -->
 
     <footer>
