@@ -47,8 +47,10 @@ header{
 }
 
 /* le titre du site */
+
 #titresite{
-    padding: 0% 0% 0% 12%;
+    position: relative;
+    margin: 0% 0% 0% 12%;
     font-size: 60px;
     text-shadow: 2px 1px 3px rgb(40, 40, 40,0.5);
 }
@@ -71,6 +73,7 @@ header{
     transform: scaleX(1);
     transform-origin: bottom left;
   }
+
 /* le conteneur des liens du menu */
 
 #menulink{
@@ -80,7 +83,6 @@ header{
     display:flex;
     font-weight: 500;
     font-size: 3.5vh;
-    
 }
 
 /* les liens du menu et les animations*/

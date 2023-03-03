@@ -2,6 +2,7 @@
 
     height: 85%;
     top: 15vh;
+    display: flex;
 }   
 #titrecontact{
     font-weight: bolder;
@@ -31,4 +32,15 @@
 #textebouton:hover{
     transform: scale(1.1);
     background: rgb(195, 195, 195);
+}
+
+#contentinfo{
+    padding-top: 8%;
+    margin-left: 10%;
+    display: flex;
+}
+#titreinfos{
+    display: flex;
+    justify-content: center;
+
 }
