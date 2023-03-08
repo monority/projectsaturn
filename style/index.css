@@ -24,7 +24,7 @@ body{
     bottom: 0px;
     width: 100%;
     font-family: "Almarai";
-    background-image:  url(média/background.jpg) ;
+    background-image:  url(../média/background.jpg) ;
     background-size:100vw 100vh;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -40,7 +40,7 @@ header{
     display:flex;
     justify-content: space-between;
     align-items: center;
-    background-image:  url(média/background.jpg) ;
+    background-image:  url(../média/background.jpg) ;
     background-size:100vw 100vh;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -96,19 +96,15 @@ header{
 
 .linkh:hover{
     transform: scale(1.2);
-    color: rgba(205, 80, 80, 0.8);
+    color: rgb(230, 110, 0);
 }
 
 .linkh:active{
-    color: rgb(212, 53, 53);
+    color: rgb(170, 80, 0);
 }
 
 /* content */
 
-#boxmainindex{
-    height: 85%;
-    top: 15vh;
-}   
 
 /* le footer */
 
@@ -146,11 +142,11 @@ footer{
 
 .lienfooteranim:hover{
     margin-top: -6px;
-    color: rgba(205, 80, 80, 0.8);
+    color: rgb(225, 109, 2);
 }
 
 .lienfooteranim:active{
-    color: rgb(212, 53, 53);
+    color: rgb(170, 80, 0);
 }
 
 
@@ -176,40 +172,10 @@ footer{
 
 /* Menu burger header */
 
-
-#menuu {
-    padding-left: 20px;
-    width: 15%;
-    display: flex;
-    flex-direction: column;}  
-    
-#burger {
-    margin-bottom: 5px;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-}
-        
-
-#burger i {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    align-items: center;}
-
-#burger i:hover {
-    margin-top: 10%;
-    scale: 1.2;
-    align-items: center;
-    padding-left: 5px;
-    transition: 1 ease;}
-
-
 .deroulant {
     min-height: 185px;
     visibility: hidden;
-    left: 0;
+    right: 0%;
     max-width:  200px;
     border: solid black;
     border-radius: 20px;
@@ -226,26 +192,22 @@ footer{
 
 
 .deroulant-visible  {
-
-    min-height: 185px;
+    z-index: 100;
     visibility: visible;
-    left: 0;
-    max-width:  200px; 
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    border: solid black;
-    border-radius: 20px;
     background-color:hsla(31, 64%, 94%, 0.85);
-    width: 30%;
-    height: 33vh;
     top: 15vh;
-    position: absolute;
-    align-items: center;}
+}
 
-.deroulant-visible p, .deroulant-visible a, .deroulant p, .deroulant a {
+.deroulant p, .deroulant-visible p {
     padding: 2% 0% 2% 0%;
-    font-size: 15px;
+    font-size: 25px;
+    font-family: "Almarai";
+    margin: 2% 0% 2% 0%;
+}
+
+ .deroulant-visible a, .deroulant a {
+    padding: 2% 0% 2% 0%;
+    font-size: 20px;
     font-family: "Almarai";
     margin: 2% 0% 2% 0%;
     }
@@ -260,6 +222,31 @@ footer{
 .deroulant-visible a:hover, .deroulant a:hover {
     color: rgba(227, 154, 70, 0.644);
     scale: 1.2;}
+
+/* //////////////////////////////////// */
+
+@media (max-width: 645px) {
+  #menulink {
+    display: block;
+    font-size: 1em;
+  }
+  #lienfooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    padding-left: 0px
+  }
+}
+
+
+@media (min-width: 645px) and (max-width: 769px) {
+    #menulink { 
+        font-size: 3vh;
+    }
+    .linkh {padding: 0% 3% 0% 3%;}
+}
+
 
 
 

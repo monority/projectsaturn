@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="player.css">
-    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="style/index.css">
+    <link rel="stylesheet" href="style/player.css">
+    <link rel="stylesheet" href="style/contact.css">
     <script src="https://kit.fontawesome.com/37a989237f.js" crossorigin="anonymous"></script>
   
     <title>Contact</title>
@@ -23,46 +23,42 @@
         <div class = "titremenu">
             
             <h1 id="titresite"><a href="index.html">Saturn™</a></h1>
-            
-        <!-- menu burger  -->
-
-            <div id="menuu">
-                
-                <div id="burger"><i id="cross"  class="fa-solid fa-bars"></i>
-                    <div class="deroulant">
-                        <p>Categories</p>
-                        <hr>
-                        <a href="">Electro</a>
-                        <a href="">Rap</a>
-                        <a href="">Reggae</a>
-                        <a href="">Pop-Rock</a>
-                    </div>
-                </div>
-            </div>
+    
         </div>
 
         <!-- liens cliquables header -->
 
         <div id="menulink">
-            <a href="store.html" class="linkh">Vinyles</a>
+            <p class="linkh" id="burger">Vinyles
+                <div class="deroulant">
+                    <p>Categories</p>
+                    <hr>
+                    <a href="store.html#Electro">Electro</a>
+                    <a href="store.html#Rap">Rap</a>
+                    <a href="store.html#Reggae">Reggae</a>
+                    <a href="store.html#Pop-Rock">Pop-Rock</a>
+                </div>
+            </p>   
+            
             <a href="inscription.html" class="linkh">Inscription</a>
             <a href="connexion.html" class="linkh">Connexion</a>
-                <a href="" class="linkB"><i class="fa-solid  fa-shopping-cart linkh"></i></a>
+            <a href="" class="linkh"><i class="fa-solid  fa-shopping-cart linkh"></i></a>
         </div>   
     
     </header>   
 
-        <!-- contenu page -->
+        <!-- contenu page --> 
         
     <main>
         <section class="sect">
                     <div id="player">
                         <div id="left"><i  class="fa-solid fa-backward"></i></div>
-                        <div class="secondimg"></div>
+                        <div class="secondimg" id="imgg"></div>
                         <div id="rigth"><i  class="fa-solid fa-forward"></i></div>
                     </div>
 
-                    <div class="info">Description <br><hr><br>
+                    <div class="info">
+                        <p> Description</p> <br><hr><br>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                         Placeat harum pariatur alias doloremque optio! Voluptate doloremque tenetur ipsa? 
                         Soluta dignissimos itaque nesciunt vitae fuga, similique sint. 
@@ -71,11 +67,11 @@
         </section>
 
         <section class="playsound"> 
-                <i class="fa-solid fa-play"></i>
+                <i id="playpause" class="fa-solid fa-play"></i>
                 <label for="volume">
-                    <input type="range" name="volume" id="volume" max="100%" min="0%">
+                    <input type="range" name="volume" id="volume" max="100%" min="0%" value="-100%">
                 </label>
-                <i class="fa-solid fa-volume-high"></i>
+                <i id="mute" class="fa-solid fa-volume-high"></i>
         </section>
     </main>
 

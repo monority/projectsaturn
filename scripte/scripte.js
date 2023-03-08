@@ -7,13 +7,35 @@ let scnd = document.querySelector('.secondimg');
 let vinyle = ['secondimg', 'thirdimg', 'fourimg', 'fiveimg', 'siximg', 'sevenimg', 'eightimg', 'nineimg'];
 let play = document.getElementById('player');
 let infox = document.querySelector('.info');
+let rotat = document.getElementById('playpause')
+let mutee = document.getElementById('mute')
+let vol = document.getElementById('volume');
+
 
 menu.addEventListener('click', () => {
     deroul.classList.toggle('deroulant-visible')
-    icon.classList.toggle('fa-bars')
-    icon.classList.toggle('fa-xmark')
+    // icon.classList.toggle('fa-xmark')
 })
 
+////////////////////////////////////////////////////////
+
+rotat.addEventListener('click', () => {
+  scnd.classList.toggle('rotation')
+  rotat.classList.toggle('fa-play')
+  rotat.classList.toggle('fa-pause')
+ 
+})
+
+////////////////////////////////////////////////////////
+
+
+mutee.addEventListener('click', () => {
+  mutee.classList.toggle('fa-volume-high')
+  mutee.classList.toggle('fa-volume-xmark')
+  if (vol.value !== '0')
+      {xx = vol.value
+      vol.value = '0'}
+  else {vol.value = xx} });
 
 ////////////////////////////////////////////////////////
 
@@ -32,10 +54,15 @@ function changeImageClass(direction) {
 
 turn.addEventListener('click', () => {
   changeImageClass(1);
+  scnd.classList.remove('rotation')
+  rotat.classList.replace('fa-pause', 'fa-play')
 });
 
 turnb.addEventListener('click', () => {
   changeImageClass(-1);
+  scnd.classList.remove('rotation')
+  rotat.classList.replace('fa-pause', 'fa-play')
+  
 });
 
 
