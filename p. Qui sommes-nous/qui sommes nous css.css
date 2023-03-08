@@ -1,0 +1,29 @@
+body {
+    width: 940px;
+    margin: auto;
+}
+
+     /* {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+      }
+       */
+      .image {
+        width: 30%;
+      }
+      
+      .imgerock{
+        float: right;
+        margin-left: 20px;
+      }
+      .imgrap {
+        float: left;
+        margin-right: 20px;
+      }
+      .article {
+        flex: 1;
+      }
+      text {align-self: start;}
+
+      
