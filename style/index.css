@@ -18,10 +18,8 @@ a {
 }
 
 body{
-    position: absolute;
+    height: 100vh;
     margin: 0px;
-    top: 0px;
-    bottom: 0px;
     width: 100%;
     font-family: "Almarai";
     background-image:  url(../média/background.jpg) ;

@@ -1,0 +1,125 @@
+section {
+    width: 100%;
+    height: 70% !important;  
+}
+
+.box {
+    border-radius: 30px;
+    background-color: rgba(255, 228, 196, 0.3);
+    padding: 3% 3% 3% 3%;
+    margin: 3% 3% 3% 3% ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.birth, .location, .name, .firstname, .mail {
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 0% 1% 0%;
+}
+
+.birth p, .location p, .name p, .firstname p, .mail p {
+    width: 40%;
+}
+
+.contentsub {
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+}
+
+.contentsubmit {
+    height: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contentsub img {
+    width: 40%;
+}
+
+.box label input {
+    height: 20px;
+    border-radius: 10px;
+}
+
+.cgvadd {
+    display: flex;
+    flex-direction: column;
+}
+
+.labcgv .labadd {
+    padding: 5px 20px 5px 20px ;
+}
+
+.soumettre {
+    padding-right: 20px;
+    align-items: center;
+}
+
+hr {
+    border: solid thin black;
+}
+
+#sub {
+    box-shadow:inset 0px 1px 0px 0px #f9eca0;
+    background:linear-gradient(to bottom, #f0c911 5%, #f2ab1e 100%);
+    background-color:#f0c911;
+    border-radius:6px;
+    border:1px solid #e65f44;
+    display:inline-block;
+    cursor:pointer;
+    color:#c92200;
+    font-family:Arial;
+    font-size:15px;
+    font-weight:bold;
+    padding:6px 24px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #ded17c;
+}
+#sub:hover {
+    background:linear-gradient(to bottom, #f2ab1e 5%, #f0c911 100%);
+    background-color:#f2ab1e;
+}
+#sub:active {
+    position:relative;
+    top:1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 645px) {
+    .birth, .location, .name, .firstname, .mail {
+    display: block;} 
+
+    .box {
+        width: 90%;
+    }
+    .contentsub img {
+        display : none;
+    }
+    
+  }
+
+
+
+

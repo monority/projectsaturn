@@ -54,7 +54,7 @@ main {
 .info { 
     line-height: 180%;
     right: 3%;
-    /* background-color: hsla(32, 100%, 88%, 0); */
+    background-color: hsla(32, 100%, 88%, 0.6);
     min-width:150px ;
     max-height: 25%;
     overflow-y: scroll;
