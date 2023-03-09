@@ -1,10 +1,17 @@
-
+section {
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 /* la premiere box qui regroupe les adresses  */
 #boxmaincontact{
     top: 15vh;
     display: flex;
-    justify-content: center;   
+    justify-content: space-between; 
+    margin: 0% 3% 0% 3% ;  
 }
+
 
 /* la deuxieme box qui regroupe le formulaire */
 
@@ -20,7 +27,6 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 50px;
 
 }
 
@@ -28,18 +34,15 @@
 
 
 .boxcontact01{
-
     border-radius: 10px;
-    height: 10vw;
-    width: 22vw;
     background: rgba(252, 252, 252, 0.104);
     color: rgb(100, 100, 100,80%);
     text-align: center;
     font-size: 22px;
-    padding: 20px 0px 0px 0px;
-    margin: 40px 40px 0px 40px;
-
+    padding: 10px 5% 0px 5%;
+  
 }
+
 
 /* le séparateur de la page */
 .hrcontact{
@@ -50,7 +53,7 @@
 
 
 .hrcontactspan{
-    margin-top: 40px;
+    /* margin-top: 40px; */
     width: 100%;
     display: flex;
     justify-content: center;
@@ -59,3 +62,12 @@
 #titresecondcontact{
     margin-top: 20px;
 }
+
+
+
+
+
+
+@media (max-width: 645px) {
+    .boxcontact01 {font-size: 13px;}
+  }

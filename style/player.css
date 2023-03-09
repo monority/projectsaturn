@@ -43,6 +43,16 @@ main {
     visibility:hidden;
 }
 
+
+
+ .le {  margin-right: 100%;
+          position: absolute;
+          transform: translateY(250px);}
+
+ .ri { margin-left: 100%;
+          position: absolute;
+          transform: translateY(250px);}
+
 .visible  {
     visibility:visible !important;
 }
@@ -123,6 +133,8 @@ main {
     font-weight: bolder;
     opacity: 0.6;}
 
+
+
 @-webkit-keyframes rotating {
     from{
         -webkit-transform: rotate(0deg);
@@ -142,12 +154,21 @@ main {
 
 
 
-@media (max-width: 426px) {
+/* @media (max-width: 426px) {
     #left , #rigth {
-        font-size: 1.5rem;
-    } 
-}
+        font-size: 1.5rem;} 
+} */
 
+
+@media (max-width: 450px) {
+    #left ,#rigth {
+       position: absolute;
+       transform: translateY(250px);
+       font-size: 2rem;} 
+
+    #left { margin-right: 100%;}
+    #rigth { margin-left: 100%;}
+}
 
 
 

@@ -4,8 +4,10 @@ section {
 }
 
 .box {
+    box-shadow:inset 0px 1px 0px 0px #f9eca0;
+    background:linear-gradient(to bottom, #d3b9907e 5%, #44392393 100%);
     border-radius: 30px;
-    background-color: rgba(255, 228, 196, 0.3);
+    /* background-color: rgba(255, 228, 196, 0.3); */
     padding: 3% 3% 3% 3%;
     margin: 3% 3% 3% 3% ;
     display: flex;
@@ -64,6 +66,7 @@ hr {
     border: solid thin black;
 }
 
+
 #sub {
     box-shadow:inset 0px 1px 0px 0px #f9eca0;
     background:linear-gradient(to bottom, #f0c911 5%, #f2ab1e 100%);
@@ -88,9 +91,6 @@ hr {
     position:relative;
     top:1px;
 }
-
-
-
 
 
 

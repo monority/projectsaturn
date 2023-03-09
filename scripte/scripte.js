@@ -71,7 +71,7 @@ turnb.addEventListener('click', () => {
 
 scnd.addEventListener('click', () => {
     scnd.classList.toggle('translate');
-    turn.classList.toggle('hidden');
-    turnb.classList.toggle('hidden');
+    turn.classList.toggle('le');
+    turnb.classList.toggle('ri');
     infox.classList.toggle('visible');
   });
