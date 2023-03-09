@@ -95,11 +95,11 @@ header{
 
 .linkh:hover{
     transform: scale(1.2);
-    color: rgb(230, 110, 0);
+    color: rgb(228, 104, 93);
 }
 
 .linkh:active{
-    color: rgb(170, 80, 0);
+    color: rgb(230, 79, 65);
 }
 
 /* content */
@@ -140,11 +140,12 @@ footer{
 
 .lienfooteranim:hover{
     margin-top: -6px;
-    color: rgb(225, 109, 2);
+
+    color: rgb(228, 104, 93);
 }
 
 .lienfooteranim:active{
-    color: rgb(170, 80, 0);
+    color: rgb(230, 79, 65);
 }
 
 
