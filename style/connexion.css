@@ -5,44 +5,85 @@
     color: rgb(45, 45, 45);
 }
 
-
 a {
     text-decoration: none !important;
     color: rgb(45, 45, 45);
 
 
 }
+
 @font-face {
     font-family: "Almarai";
     src:url(../média/Almarai-Regular.ttf);
 }
 
-body{
-    height: 100vh;
-    margin: 0px;
-    width: 100%;
-    font-family: "Almarai";
+.bgimage{
     background-image:  url(../média/background.jpg) ;
     background-size:100vw 100vh;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+body{
+    margin: 0px;
+    width: 100%;
+    font-family: "Almarai";
+
+}
+
+h3{
+    background-color: rgba(240, 128, 128, 0.719);
+    text-align: center;
+    width: 20%;
+    height: 2em;
 }
 
 .titreconnexion{
-
     text-align: center;
     margin: 4% 0% 0% 0%;
     font-size: 60px;
     text-shadow: 2px 1px 3px rgb(40, 40, 40,0.5);
 }
-#consect{
 
+#consect{
+    display: flex;
+    flex-direction: column;
+}
+
+#sidetitle{
+    display: flex;
+    justify-content: center;
+
+}
+
+#spanconnexion{
+    width: 20%;
+    height: 200px;
+    background-color: rgba(239, 239, 239, 0.371);
+}
+
+#divconnexion{
+    
     display: flex;
     justify-content: center;
 }
-#divconnexion{
-    background: url(../média/vinyleconnexion.jpg);
-    background-size: 100% 100%;
-    width: 60vh;
-    height: 60vh;
+
+/* footer */
+
+#iconreseauco{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 3vh;
+    
+}
+.iconreseaucoanim{
+    margin: 0vw 2vw 0vw 2vw;
+    font-size: 30px;
+
 }
