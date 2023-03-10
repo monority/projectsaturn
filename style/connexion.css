@@ -1,16 +1,48 @@
-#consect{
+*{  font-family: "Almarai";
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    color: rgb(45, 45, 45);
+}
+
+
+a {
+    text-decoration: none !important;
+    color: rgb(45, 45, 45);
+
+
+}
+@font-face {
+    font-family: "Almarai";
+    src:url(../média/Almarai-Regular.ttf);
+}
+
+body{
     height: 100vh;
-    display: flex;
+    margin: 0px;
+    width: 100%;
+    font-family: "Almarai";
+    background-image:  url(../média/background.jpg) ;
+    background-size:100vw 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
+.titreconnexion{
+
+    text-align: center;
+    margin: 4% 0% 0% 0%;
+    font-size: 60px;
+    text-shadow: 2px 1px 3px rgb(40, 40, 40,0.5);
+}
+#consect{
+
+    display: flex;
+    justify-content: center;
+}
 #divconnexion{
-    font-size: 19px;
-    background-color: rgb(252, 252, 252, 0.104);
-    display: flex;
-
-}
-
-#imagevinyle{
-
-    display: flex;
+    background: url(../média/vinyleconnexion.jpg);
+    background-size: 100% 100%;
+    width: 60vh;
+    height: 60vh;
 }
