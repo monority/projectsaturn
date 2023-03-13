@@ -111,9 +111,9 @@ h3{
 /* span du formulaire */
 
 #spanconnexion{
-    padding-top: 20px;
+    padding-top: 50px;
     width: 25%;
-    height: 250px;
+    height: 350px;
     background-color: rgba(238, 238, 238, 0.350);
     display: flex;
     justify-content: flex-start;
@@ -150,7 +150,7 @@ h3{
     font-family:Arial;
     padding: 5px 5px 5px 5px;
     margin: 20px 0px 0px 0px;
-    width: 16em;
+    width: 15em;
     color:rgb(255, 255, 255);
     border-color:rgba(119, 119, 119, 0.5);
     box-shadow:inset 0px 39px 0px -24px rgb(230, 122, 115);
@@ -169,7 +169,7 @@ h3{
 #linkunder{
     text-align: center;
     padding-top: 20px;  
-    font-size: 13px;
+    font-size: 15px;
 }
 
 /* soulignage des deux liens  */

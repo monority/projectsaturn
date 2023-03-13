@@ -9,9 +9,8 @@
 a {
     text-decoration: none !important;
     color: rgb(45, 45, 45);
-
-
 }
+
 @font-face {
     font-family: "Almarai";
     src:url(../média/Almarai-Regular.ttf);
@@ -51,7 +50,7 @@ header{
 
 main {
     width: 100%;
-    height: 100vh !important;
+    height: 100 vh !important;
     display: flex;
     flex-direction: column;
 }
@@ -210,10 +209,10 @@ footer{
 
 .slider{
     position: relative;
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     transform-style: preserve-3d;
-    animation: rotate 20s linear infinite;
+    animation: rotate 35s linear infinite;
 }
     
 @keyframes rotate {
@@ -241,9 +240,7 @@ footer{
     width: 100%;
     height: 100%;
     border-radius: 30px;
-    /* border: 2px;
-    border-style: groove;
-    border-color: rgb(0, 0, 0); */
+    border: 1px solid rgba(25, 25, 25, 0.8);
     object-fit: cover;
     transition: 1s;
 }
