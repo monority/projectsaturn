@@ -169,7 +169,7 @@ h3{
 #linkunder{
     text-align: center;
     padding-top: 20px;  
-    font-size: 15px;
+    font-size: 17px;
 }
 
 /* soulignage des deux liens  */
@@ -209,9 +209,9 @@ h3{
 .iconreseaucoanim{
     margin: 0vw 2vw 0vw 2vw;
     font-size: 30px;
-    transition: margin 0.3s ease-in-out;
+    transition: margin 0.4s ease-in-out;
 }
 
 .iconreseaucoanim:hover{
-    margin-top: -6px;
+    margin-top: -10px;
 }

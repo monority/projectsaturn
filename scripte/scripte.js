@@ -68,7 +68,6 @@ turnb.addEventListener('click', () => {
 
 ////////////////////////////////////////////////////////////
 
-
 scnd.addEventListener('click', () => {
     scnd.classList.toggle('translate');
     turn.classList.toggle('le');
