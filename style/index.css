@@ -168,60 +168,6 @@ footer{
     margin-top: -6px;
 }
 
-
-/* Menu burger header */
-
-.deroulant {
-    min-height: 185px;
-    visibility: hidden;
-    right: 0%;
-    max-width:  200px;
-    border: solid black;
-    border-radius: 20px;
-    background-color:hsla(31, 64%, 94%, 0.25);
-    width: 30%;
-    height: 33vh;
-    top: 35px;
-    position: absolute;
-    transition:linear 0.3s;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;}
-
-
-.deroulant-visible  {
-    z-index: 100;
-    visibility: visible;
-    background-color:hsla(31, 64%, 94%, 0.85);
-    top: 15vh;
-}
-
-.deroulant p, .deroulant-visible p {
-    padding: 2% 0% 2% 0%;
-    font-size: 25px;
-    font-family: "Almarai";
-    margin: 2% 0% 2% 0%;
-}
-
- .deroulant-visible a, .deroulant a {
-    padding: 2% 0% 2% 0%;
-    font-size: 20px;
-    font-family: "Almarai";
-    margin: 2% 0% 2% 0%;
-    }
-
-.deroulant hr, .deroulant-visible hr {
-    border-radius: 10px;
-    border:solid rgba(0, 0, 0, 0.5);
-    width: 80%;
-    margin: 0;
-}
-
-.deroulant-visible a:hover, .deroulant a:hover {
-    color: rgba(227, 154, 70, 0.644);
-    scale: 1.2;}
-
 /* //////////////////////////////////// */
 
 @media (max-width: 575px) {

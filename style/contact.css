@@ -125,19 +125,18 @@ header{
 
 .popup {
     transition: all .2s ease-in-out; 
-    font-size:15px;
-    font-family:Arial;
-    padding: 10px 10px 10px 10px;
-    margin: 10px 10px 10px;
+    font-size:14px;
+    padding: 1px 1px 1px 1px;
+    margin: 20px 0px 0px 0px;
+    width: 8em;
     color:rgb(255, 255, 255);
-    border-color:rgba(119, 119, 119, 1);
-    border-radius: 10px;
+    border-color:rgba(119, 119, 119, 0.5);
     box-shadow:inset 0px 39px 0px -24px rgb(230, 122, 115);
     text-shadow:inset 0px 1px 0px rgb(178, 62, 53);
     background-color:rgb(228, 104, 93);
     position: relative;
+    justify-content: center;
     display: flex;
-    width: 12%;
     cursor: pointer;
   }
 
