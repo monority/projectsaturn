@@ -33,7 +33,6 @@ header{
     width: 100%;
     top: 0px;
     left: 0px;
-    border-bottom: solid 2px rgb(41, 41, 41);
     background-color: hsla(31, 100%, 88%, 0.100);
     display:flex;
     justify-content: space-between;
@@ -42,6 +41,19 @@ header{
     background-size:100vw 100vh;
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+.sect {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 70%;
+}
+
+main {
+    width: 100%;
+    height: 100vh !important;
+    display: flex;
+    flex-direction: column;
 }
 
 /* le titre du site */
@@ -188,21 +200,84 @@ footer{
     align-items: flex-end;}
 }
 
-
 @media (min-width: 575px) and (max-width: 769px) {
     #menulink { font-size: 3vh;}
 
     .linkh {padding: 0% 3% 0% 3%;}
 }
 
+/* vinyle rotate */
+
+.slider{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    transform-style: preserve-3d;
+    animation: rotate 20s linear infinite;
+}
+    
+@keyframes rotate {
+0%{ transform: perspective(1000px) rotateY(0deg) ; }
+
+   
+100%{ transform: perspective(1000px) rotateY(360deg)}}
 
 
+.slider span{
+    position: absolute;
+    top: 0;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    transform-origin: center;
+    transform-style: preserve-3d;
+    transform: rotateY(calc(var(--i)*45deg)) translateZ(380px) ;
+}
 
+.slider span img{
+    position:absolute;
+    top: 0;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    /* border: 2px;
+    border-style: groove;
+    border-color: rgb(0, 0, 0); */
+    object-fit: cover;
+    transition: 1s;
+}
 
+.slider span:hover img{
 
+    transform:translateY(-30px) scale(1.2);}
+    
+    .slider:hover {
+        animation-play-state: paused;
+      }
 
+      .slider span:hover {
+        animation-play-state: running !important;
+      }
 
+ /*section et contenaire vinyle rotate  */
 
+.sec1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+
+.contenair2{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 25px;
+}
 
 
     
